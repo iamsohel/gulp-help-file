@@ -1,5 +1,15 @@
 
-
+# Installing gulp
+           Before we delve into configuring tasks, we need to install gulp:
+           
+           npm install gulp -g
+           
+           This installs gulp globally, giving access to gulp’s CLI. We then need to install it locally to the project. 
+           cd into your     project and run the following (make sure you have an existing package.json file):
+           
+           npm install gulp --save-dev
+    
+           This installs gulp locally to the project and saves it to the devDependencies in the package.json file.
 # gulp-dependency
  
     $ npm install gulp-ruby-sass gulp-autoprefixer gulp-cssnano gulp-jshint gulp-concat gulp-uglify gulp-imagemin gulp-notify gulp-rename gulp-livereload gulp-cache del --save-dev
